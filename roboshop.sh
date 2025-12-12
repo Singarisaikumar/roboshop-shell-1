@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="sg-01bc7ebe005fb1cb2" # replace with your SG ID
+SG_ID="sg-06507cfe4e2b0eaf2" # replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
 ZONE_ID="Z01037242PFYQFQ71R7F6" # replace with your ZONE ID
 DOMAIN_NAME="devopswithaws.store" # replace with your domain
